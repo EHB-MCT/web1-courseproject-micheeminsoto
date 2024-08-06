@@ -88,3 +88,25 @@ nav ul{
 }
 
 
+.outer{
+    background-color: #4695c1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 0;
+	
+	
+}
+
+
+.outer p{
+    font-family: "Bahnschrift";
+    font-style: normal;
+    text-align: center;
+}

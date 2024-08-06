@@ -112,9 +112,8 @@ nav ul{
     right: 0;
     bottom: 0;
     width: 100%;
-    
-    
-   
+    padding-bottom: 0;
+    padding-left: 0;
 }
 
 .outer p{
