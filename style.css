@@ -28,12 +28,7 @@ nav ul{
 	color: #4695c1;
 }
 
-a:hover{
-	text-decoration: underline;
-	text-underline-offset: 10px;
-	color: #4695c1;
-	text-decoration-thickness: 7px;
-}
+
 
 .intro{
 	display: flex;
