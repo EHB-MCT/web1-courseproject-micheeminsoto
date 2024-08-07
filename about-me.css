@@ -77,7 +77,8 @@ nav ul{
 .skills{
 	display: flex;
 	justify-content: space-between;
-	margin-top: 40px;
+	margin-top: 5px;
+	margin-bottom: 0;
 }
 
 .skills h2{
@@ -99,7 +100,13 @@ nav ul{
 
 }
 
-
+.contact strong{
+	font-family: "Bahnschrift";
+	color: #3d3d3d;
+	font-weight: 600;
+	font-size: 16px;
+}
+ 
 
 .skill{
 	margin-bottom: 15px;
@@ -119,6 +126,7 @@ nav ul{
 	background-color: #efecea;
 	border-radius: 20px;
 	overflow: hidden;
+	margin-bottom: 30px;
 }
 
 .progress-bar{
@@ -132,4 +140,4 @@ nav ul{
 	font-weight: 500;
 }
 
- 
+
