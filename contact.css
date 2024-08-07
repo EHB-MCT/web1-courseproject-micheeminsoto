@@ -30,9 +30,11 @@ nav ul{
 
 .contact h2{
 	font-family: "Bahnschrift";
-	font-size: 21px;
+	font-size: 25px;
 	font-weight: lighter;
 	text-align: center;
+    color: #3d3d3d;
+
 }
 
 .contact-container {
