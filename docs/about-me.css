@@ -168,13 +168,8 @@ nav ul{
 
 
 .fotogalerij{
-	display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    
-    justify-content: center;
+	display: flex;
 	margin-bottom: 10%;
-    
-	
 }
 
 
@@ -230,6 +225,117 @@ nav ul{
 }
 
 
+@media (max-width:480px) {
+		.about-me{
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.foto{
+			width: 400px;
+			margin-right: 0;
+		}
+
+		.info{
+			flex: 1 1 70%;
+			text-align: center;
+		}
+
+		.info-title{
+			text-align: center;
+			margin-left: 30px;
+		}
+
+		.info-text{
+			margin-top: 30px;
+			text-align: center;
+		}
+
+		.info h2{
+			color: #3d3d3d;
+			font-family: "Bahnschrift";
+			font-size: 20px;
+			font-weight: lighter;
+		}
+
+		.info p{
+			font-family: "Open Sans", sans-serif;
+			font-style: normal;
+			font-size: 15px;
+		}
+
+		.contact{
+			text-align: center;
+		}
+
+		.contact strong{
+			font-family: "Bahnschrift";
+			color: #3d3d3d;
+			font-weight: 600;
+			font-size: 15px;
+		}
+
+		.professional-skills h3 {
+			margin-top: 40px;
+			font-size: 17px;
+
+		}
+
+		.skills{
+			flex-wrap: nowrap;
+			
+		}
+
+		.skill{
+			flex: 1 1 50%;
+			max-width: 50%;
+			margin: auto;
+		}
+
+
+		.fotogalerij{
+			display: flex;
+			flex-direction: column;
+		}
+
+
+		
+		.skill span{
+			font-size: 13px;
+		}
+
+		.basic-skills h3{
+			margin-top: 20%;
+		}
+
+
+		.hobbies{
+			margin-bottom: 30px;
+		}
+
+		.hobbies h2{
+			font-size: 20px;
+		}
+
+		.outer {
+			padding: 5px 0;
+		}
+	
+		.outer p {
+			font-size: 12px; 
+		}
+
+		.foto-kader img{
+			width: 200px;
+		}
+
+		.foto-container {
+			margin-left: 70px;
+			justify-content: center;
+			width: 300px;
+		}
+
+}
 
 
 

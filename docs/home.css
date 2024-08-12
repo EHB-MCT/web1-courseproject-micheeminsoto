@@ -35,11 +35,10 @@ nav ul{
 
 .profile-pic{
 	margin: auto;
-	
 }
 
 .profile-pic img{
-	width: 70%;
+	width: 75%;
 	margin-left: 35%;
 	margin-top: -15%;
 	
@@ -116,4 +115,66 @@ nav ul{
     font-style: normal;
     text-align: center;
 }
+
+
+@media (max-width:480px) {
+	.intro{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.profile-pic img{
+		width: 400px;
+		margin: auto;
+	}
+
+	.intro-text{
+		margin-top: -40%;
+		text-align: center;
+	}
+
+	.intro-text h1{
+		color: #3d3d3d;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 25px;
+	}
+
+	.intro-text h2{
+		font-family: "Bahnschrift";
+		font-size: 20px;
+		font-weight: lighter;
+		color: #4695c1;
+		margin-bottom: 15%;
+		text-align: center;
+	}
+
+
+	.button{
+		padding:  20px;
+		background-color: #4695c1;
+		color: #FFF;
+		width: 50%;
+		border-radius: 50px;
+		margin: auto;
+		
+	}
+	
+	.social-links{
+		justify-content: center;
+		margin-left: 30px;
+	}
+
+	.outer {
+        padding: 5px 0;
+    }
+
+    .outer p {
+        font-size: 12px; 
+    }
+}
+	
+	
+
+
 
