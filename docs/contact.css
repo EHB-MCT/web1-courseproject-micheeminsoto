@@ -155,7 +155,7 @@ a:hover
     }
 
     .map-container iframe {
-        height: 200px; /* Verklein de hoogte van de kaart nog verder voor kleinere schermen */
+        height: 200px; 
     }
 
     .outer {
@@ -163,7 +163,7 @@ a:hover
     }
 
     .outer p {
-        font-size: 12px; /* Nog een verkleining voor kleinere schermen */
+        font-size: 12px; 
     }
 }
 
