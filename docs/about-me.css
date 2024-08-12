@@ -23,6 +23,8 @@ nav ul{
 	color: #4695c1;
 }
 
+
+
 .about-me{
     display: flex;
 	justify-content: center;
@@ -74,21 +76,25 @@ nav ul{
 	color: #FFF;
 }
 
+
+
 .skills{
-	display: flex;
+	
 	justify-content: space-between;
-	margin-top: 5px;
-	margin-bottom: 0;
+	
+
 }
 
-.skills h2{
+.skills h3{
 	text-align: center;
+
 }
 
 .professional-skills, .basic-skills{
 	flex: 1;
 	margin: 0 20px;
-	
+	margin-top: 0;
+	margin-bottom: 50%;
 }
 
 .professional-skills h3, .basic-skills h3 {
@@ -139,5 +145,85 @@ nav ul{
 	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 }
+
+.hobbies{
+	margin-bottom: 10%;
+}
+
+.hobbies h2{
+	color: #3d3d3d;
+	font-family: "Bahnschrift";
+	font-size: 25px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+
+
+
+.fotogalerij{
+	display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    
+    justify-content: center;
+	margin-bottom: 10%;
+    
+	
+}
+
+
+.foto-kader{
+	padding: 20px;
+	color: #3d3d3d;
+	border-radius: 50px;
+}
+
+.foto-container {
+    position: relative;
+    margin: 20px;
+    width: 400px;
+}
+
+.foto-kader {
+    position: relative;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+.foto-kader img {
+	width: 300px;
+	display: block;
+	padding-left: 30px;
+}
+
+
+.outer{
+    background-color: #4695c1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 0;
+	
+	
+}
+
+
+.outer p{
+    font-family: "Bahnschrift";
+    font-style: normal;
+    text-align: center;
+}
+
+
 
 
