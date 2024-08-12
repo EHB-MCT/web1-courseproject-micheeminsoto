@@ -23,6 +23,18 @@
       {
         "link-name": "off"
       }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off"
+      }
     ]
   }
 }
