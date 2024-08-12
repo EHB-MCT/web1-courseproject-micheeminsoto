@@ -224,6 +224,10 @@ nav ul{
     text-align: center;
 }
 
+.menu-close{
+	display: none;
+}
+
 
 @media (max-width:480px) {
 		.about-me{
