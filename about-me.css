@@ -421,6 +421,13 @@ nav ul{
 			flex-direction: column;
 			text-align: center;
 		}
+
+		.nav-links a:hover {
+			text-decoration: underline;
+			text-decoration-color: #FFF;
+			text-decoration-thickness: 7px;
+			text-underline-offset: 8px;
+		}
 }
 
 
