@@ -97,6 +97,10 @@ a:hover .contact {
 	font-weight: 700;
 }
 
+.contact h2{
+	margin: auto;
+}
+
 .contact-item img {
 	width: 200px;
 }
