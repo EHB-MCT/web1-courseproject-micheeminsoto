@@ -15,6 +15,16 @@ nav ul{
 	margin-top: 30px;
 }
 
+.nav-links a{
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.nav-links{
+	position: relative;
+	z-index: 10;
+}
+
  a{
 	text-decoration: none;
 	font-family: "Open Sans", sans-serif;
@@ -40,7 +50,7 @@ nav ul{
 .profile-pic img{
 	width: 75%;
 	margin-left: 35%;
-	margin-top: -15%;
+	margin-top: -18%;
 	
 }
 
@@ -69,7 +79,7 @@ nav ul{
 	margin-left: 20px;
 }
 
-.button{
+.button {
 	padding:  30px;
 	background-color: #4695c1;
 	color: #FFF;
@@ -119,6 +129,10 @@ nav ul{
 .menu-close{
 	display: none;
 }
+
+
+
+
 
 
 @media (max-width:480px) {
@@ -200,6 +214,7 @@ nav ul{
 		display: block;
 		text-align: center;
 		margin-top: 30px;
+		font-size: 15px;
 	}
 
 	.menu {
@@ -219,7 +234,7 @@ nav ul{
 	}
 
 	.menu-close{
-		position: absolute;
+		position: fixed;
 		top: 20px;
 		right: 25px;
 		margin-left: 50px;
@@ -233,37 +248,21 @@ nav ul{
 		text-align: center;
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 	
 	
-
+@media (max-width:768px) {
+	.menu-close{
+		color: white;
+		display: block;
+		text-align: center;
+		margin-top: 30px;
+		font-size: 15px;
+		position: fixed;
+		top: 20px;
+		right: 25px;
+		margin-left: 50px;
+	}
+}
 
 

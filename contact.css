@@ -12,6 +12,17 @@ nav ul {
 	list-style: none;
 	gap: 40px;
 	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.nav-links a{
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.nav-links{
+	position: relative;
+	z-index: 10;
 }
 
 a {
@@ -24,6 +35,11 @@ a {
 
 a:hover .contact {
 	margin-top: 40px;
+}
+
+.contact{
+	margin-left: 40px;
+	justify-content: center;
 }
 
 .contact h2 {
@@ -47,6 +63,7 @@ a:hover .contact {
 	max-width: 800px;
 	text-align: center;
 	margin-top: 9%;
+	
 }
 
 .contact-item {
@@ -85,10 +102,11 @@ a:hover .contact {
 }
 
 .map-container {
-	margin: auto;
+    margin: auto;
 	margin-top: 20px;
 	width: 70%;
 	max-width: 800px;
+	
 }
 
 .map-container iframe {
@@ -153,6 +171,7 @@ a:hover .contact {
 
 	.map-container iframe {
 		height: 200px;
+		
 	}
 
 	.outer {
@@ -188,6 +207,7 @@ a:hover .contact {
         display: block;
         text-align: center;
         margin-top: 30px;
+        font-size: 15px;
     }
 
 	.menu {
@@ -207,7 +227,7 @@ a:hover .contact {
 	}
 
     .menu-close{
-        position: absolute;
+        position: fixed;
         top: 20px;
         right: 25px;
         margin-left: 50px;

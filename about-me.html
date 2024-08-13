@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Michée Minsoto</title>
     <link rel="stylesheet" href="about-me.css">
+    <script src="hamburger-menu.js"></script>
 </head>
 <body>
     <header>
@@ -19,11 +20,11 @@
                 
                     <nav class="menu" id="menu">
                         <div class="menu-icon" id="menu-icon"></div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#" class="menu-close" id="menu-close">&times;</a></li>
-				<li><a href="#" class="menu-item">HOME</a></li>
-                <li><a href="#" class="menu-item">ABOUT ME</a></li>
-                <li><a href="#" class="menu-item">CONTACT</a></li>
+				<li><a href="home.html" class="menu-item">HOME</a></li>
+                <li><a href="about-me.html" class="menu-item">ABOUT ME</a></li>
+                <li><a href="contact.html" class="menu-item">CONTACT</a></li>
 			</ul>
         </nav>
     </header>
@@ -136,7 +137,13 @@
     <p>Nijverheidskaai 170 <br>1070 Anderlecht</p>
 </footer>
 
-<script src="hamburger-menu.js"></script>
+
+<script>
+    function scrollToAboutMe() {
+        document.getElementById("about-me").scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
+
 
 </body>
 </html>

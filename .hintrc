@@ -35,6 +35,12 @@
       {
         "duplicate-id": "off"
       }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
     ]
   }
 }

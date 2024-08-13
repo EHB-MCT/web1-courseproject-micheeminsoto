@@ -15,6 +15,16 @@ nav ul{
 	margin-top: 30px;
 }
 
+.nav-links a{
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.nav-links{
+	position: relative;
+	z-index: 10;
+}
+
  a{
 	text-decoration: none;
 	font-family: "Open Sans", sans-serif;
@@ -37,7 +47,7 @@ nav ul{
 }
 
 .foto img{
-	margin-top: -13%;
+	margin-top: -15%;
     width: 100%;
 	
 }
@@ -48,24 +58,31 @@ nav ul{
 	
 }
 
-.info h2{
+
+
+.info-title h2{
 	color: #3d3d3d;
 	font-family: "Bahnschrift";
 	font-size: 25px;
 	font-weight: lighter;
 	margin-bottom: 10px;
-	margin-left: -40px;
+	
 }
 
 .info p{
 	font-family: "Open Sans", sans-serif;
 	font-style: normal;
 	font-size: 17px;
+
+
 }
 
 .info-text {
 	margin-top: 30%;
 	margin-bottom: 50px;
+	margin-left: 10px;
+	
+	
 	
 }
 
@@ -213,8 +230,6 @@ nav ul{
     width: 100%;
     padding-bottom: 10px;
     padding-left: 0;
-	
-	
 }
 
 
@@ -362,6 +377,7 @@ nav ul{
 			display: block;
 			text-align: center;
 			margin-top: 30px;
+			font-size: 15px;
 		}
 	
 		.menu {
@@ -381,7 +397,7 @@ nav ul{
 		}
 	
 		.menu-close{
-			position: absolute;
+			position: fixed;
 			top: 20px;
 			right: 25px;
 			margin-left: 50px;
