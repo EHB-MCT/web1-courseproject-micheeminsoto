@@ -49,6 +49,7 @@ nav ul{
 .foto img{
 	margin-top: -15%;
     width: 100%;
+	margin-left: 30px;
 	
 }
 
@@ -214,7 +215,7 @@ nav ul{
 .foto-kader img {
 	width: 300px;
 	display: block;
-	padding-left: 30px;
+	margin: auto;
 }
 
 
