@@ -139,9 +139,6 @@ nav ul{
 }
 
 
-
-
-
 @media (max-width:480px) {
 	.intro{
 		flex-direction: column;
